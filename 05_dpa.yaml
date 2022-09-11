@@ -12,13 +12,13 @@ spec:
     - velero:
         config:
           profile: default
-          region: us-east-1
+          region: ca-central-1
         credential:
           key: cloud
           name: cloud-credentials
         default: true
         objectStorage:
-          bucket: 'oadp-store'
+          bucket: 'oadp-demo'
           prefix: velero
         provider: aws
   configuration:
